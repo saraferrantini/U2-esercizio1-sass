@@ -1,0 +1,18 @@
+@import "../partials/reset.scss";
+@import "../partials/colori.scss";
+@import "../partials/animazioni.scss";
+@import "../partials/bottoni.scss";
+@import "../partials/font.scss";
+@import "../partials/mixins.scss";
+@import "../partials/spaziature.scss";
+
+// richiamiamo lo stile desiderato
+h1 {
+  @include h1();
+}
+
+// richiamo lo stile della navbar
+
+nav {
+  @include navbar-style();
+}
